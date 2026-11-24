@@ -13,8 +13,10 @@ This repository contains material adapted from:
 
 Modifications: the notebook was restructured and rewritten for a course setting.
 Students download regional subsets and clip them to the study area themselves, matplotlib/folium
-instead of geoviews/holoviews, reads all beams with a helper function, adds a
-DEM-based filter for mountain terrain, exercises, and GeoPackage export.
+instead of geoviews/holoviews, reads all beams with a helper function, plots the
+full RH profile along a transect with matplotlib, simplified code for beginners,
+algorithm setting groups and a DEM-based filter for mountain terrain moved to an
+optional "Going further" part, exercises, and GeoPackage export.
 The waveform (L1B) section was removed. prep/prepare_subset.py is new.
 
 Data:

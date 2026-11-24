@@ -4,7 +4,7 @@ A hands-on introduction to the GEDI Level 2A Elevation and Height Metrics produc
 ([GEDI02_A.002](https://doi.org/10.5067/GEDI/GEDI02_A.002)) with Python.
 It runs entirely in the browser, with no installation and no account.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<your-user>/gedi-l2a-intro/HEAD?labpath=notebooks%2FGEDI_L2A_Intro.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/flojoli/gedi-l2a-intro/HEAD?labpath=notebooks%2FGEDI_L2A_Intro.ipynb)
 
 ## For students
 
@@ -41,7 +41,7 @@ notebook downloads them.
    or a public Nextcloud link (append `/download` to the share link).
 3. Put the links into `DATA_URLS` in the first data cell of the notebook.
 4. Optional: replace `data/aoi.geojson` with the real national park boundary (EPSG:4326).
-5. Replace `<your-user>` in the Binder badge above, push to a **public** GitHub repo,
+5. Push to a **public** GitHub repo,
    and click the badge once before class to build the image (5–10 min the first time).
 
 ## Credits and license
