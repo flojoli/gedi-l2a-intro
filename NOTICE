@@ -1,0 +1,25 @@
+GEDI L2A Introduction (teaching material)
+Arbeitsgruppe Geospatial Technologies, Institut für Geographie und Raumforschung,
+Universität Graz
+
+This repository contains material adapted from:
+
+  "Getting Started with GEDI L2A Version 2 Data in Python"
+  (python/tutorials/GEDI_L2A_V2_Tutorial.ipynb)
+  NASA GEDI-Data-Resources, https://github.com/nasa/GEDI-Data-Resources
+  Land Processes Distributed Active Archive Center (LP DAAC).
+  Work performed under USGS contract G15PD00467 for NASA contract NNG14HH33I.
+  Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Modifications: the notebook was restructured and rewritten for a course setting.
+Students download regional subsets and clip them to the study area themselves, matplotlib/folium
+instead of geoviews/holoviews, reads all beams with a helper function, adds a
+DEM-based filter for mountain terrain, exercises, and GeoPackage export.
+The waveform (L1B) section was removed. prep/prepare_subset.py is new.
+
+Data:
+  Dubayah, R., Hofton, M., Blair, J., Armston, J., Tang, H., Luthcke, S. (2021).
+  GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002.
+  NASA EOSDIS Land Processes DAAC. https://doi.org/10.5067/GEDI/GEDI02_A.002
+  The data files used by the notebook are GEDI L2A files (or subsets of them)
+  hosted separately by the instructor.

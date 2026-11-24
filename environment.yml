@@ -1,0 +1,15 @@
+name: gedi-l2a-intro
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - h5py
+  - numpy
+  - pandas
+  - geopandas
+  - shapely
+  - pyogrio
+  - matplotlib
+  - folium
+  - mapclassify
+  - jupyterlab

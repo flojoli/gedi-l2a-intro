@@ -1,0 +1,7 @@
+raw/
+shared_data/
+data/*.h5
+output/
+.ipynb_checkpoints/
+__pycache__/
+kalkalpen.zip
